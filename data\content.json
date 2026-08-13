@@ -1,0 +1,126 @@
+{
+  "profile": {
+    "displayName": "牛越",
+    "romanizedName": "NIU YUE",
+    "romanizationMode": "auto",
+    "roleTitle": "一名持续升级中的AI训练师",
+    "welcomeSuffix": "欢迎来到我的像素工作室。",
+    "about": "本科毕业于安全工程专业。工程学习让我形成了重视规范、风险与细节的习惯。毕业后，我在房地产领域从事资料管理工作，后来转向 Java 开发，在真实业务系统的维护、二次开发和问题排查中持续积累经验。现在，我也在探索 AI 训练、样本评估和高质量反馈的方法，希望以耐心、清晰和持续实践走好下一段成长路线。",
+    "email": "nevergiveup86421@163.com",
+    "status": "期待新的合作与成长机会"
+  },
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "业务系统问题排查",
+      "summary": "阅读既有代码、结合日志与 SQL 定位异常，完成修复和回归验证。",
+      "tags": [
+        "Java",
+        "Spring Boot",
+        "MySQL"
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "存量模块迭代",
+      "summary": "在理解原有业务规则的基础上完成接口和页面的二次开发。",
+      "tags": [
+        "接口联调",
+        "二次开发",
+        "Git"
+      ]
+    },
+    {
+      "id": "project-3",
+      "title": "AI 训练练习场",
+      "summary": "围绕提示设计、样本判断、错误分类与反馈质量进行持续练习。",
+      "tags": [
+        "AI Training",
+        "SFT",
+        "RL",
+        "Prompting"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "id": "skill-1",
+      "name": "Java 基础",
+      "level": "熟悉",
+      "evidence": "能够阅读业务代码并完成常见问题修复"
+    },
+    {
+      "id": "skill-2",
+      "name": "Spring Boot",
+      "level": "使用过",
+      "evidence": "参与存量项目接口与业务逻辑迭代"
+    },
+    {
+      "id": "skill-3",
+      "name": "MySQL",
+      "level": "使用过",
+      "evidence": "编写查询并协助定位数据问题"
+    },
+    {
+      "id": "skill-4",
+      "name": "AI 训练",
+      "level": "正在升级",
+      "evidence": "练习样本评估、错误归因和反馈表达"
+    }
+  ],
+  "career": [
+    {
+      "id": "career-1",
+      "period": "LEVEL 1",
+      "title": "安全工程 · 基础属性",
+      "detail": "获得规范意识、风险思维和严谨记录能力。"
+    },
+    {
+      "id": "career-2",
+      "period": "LEVEL 2",
+      "title": "房地产资料管理 · 协作关卡",
+      "detail": "积累流程管理、资料准确性、多方沟通和节点意识。"
+    },
+    {
+      "id": "career-3",
+      "period": "LEVEL 3",
+      "title": "Java 技能训练",
+      "detail": "系统学习 Java、数据库、Web 开发和常用框架。"
+    },
+    {
+      "id": "career-4",
+      "period": "LEVEL 4",
+      "title": "业务系统开发 · 实战关卡",
+      "detail": "参与三家公司项目的二次开发、维护、缺陷定位与交付。"
+    },
+    {
+      "id": "career-5",
+      "period": "LEVEL 5",
+      "title": "AI 训练师 · 新地图",
+      "detail": "继续练习高质量判断、反馈表达和可持续学习。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "practice-1",
+      "title": "Bug 复盘",
+      "detail": "现象 → 假设 → 验证 → 根因 → 修复 → 防复发"
+    },
+    {
+      "id": "practice-2",
+      "title": "代码阅读",
+      "detail": "入口 → 调用链 → 数据流 → 异常路径 → 关键表"
+    },
+    {
+      "id": "practice-3",
+      "title": "AI 训练",
+      "detail": "提示设计 → 样本构建 → 结果评估 → 错误分类 → 迭代"
+    },
+    {
+      "id": "practice-4",
+      "title": "小型练习",
+      "detail": "围绕一个问题产出可运行示例与清晰说明"
+    }
+  ],
+  "photos": []
+}
