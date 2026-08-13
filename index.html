@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="鐗涜秺鐨勫彲鎺㈢储鍍忕礌椋庝釜浜虹綉绔? />
-    <title>鐗涜秺鐨勫儚绱犲伐浣滃</title>
+    <meta name="description" content="牛越的可探索像素风个人网站" />
+    <title>牛越的像素工作室</title>
     <link rel="preload" href="./assets/room-background-v2.webp" as="image" type="image/webp" />
     <link rel="stylesheet" href="./styles.css?v=20260812-2" />
     <link rel="stylesheet" href="./styles-v2.css?v=20260812-3" />
@@ -12,74 +12,25 @@
   <body>
     <div id="app" class="app-shell">
       <header class="topbar">
-        <a class="brand" href="#/" aria-label="杩斿洖鍍忕礌宸ヤ綔瀹ら椤?>
-          <span class="brand-heart" aria-hidden="true">鈾?/span>
-          <span id="brandName">NIU YUE</span>
-          <i class="brand-dots" aria-hidden="true">路路路</i>
-        </a>
-        <nav class="quick-nav" aria-label="蹇嵎瀵艰埅">
-          <button data-home>棣栭〉</button>
-          <button data-open="projects">椤圭洰</button>
-          <button data-open="career">缁忓巻</button>
-          <button data-open="contact">鑱旂郴</button>
-        </nav>
+        <a class="brand" href="#/" aria-label="返回像素工作室首页"><span class="brand-heart" aria-hidden="true">♥</span><span id="brandName">NIU YUE</span><i class="brand-dots" aria-hidden="true">···</i></a>
+        <nav class="quick-nav" aria-label="快捷导航"><button data-home>首页</button><button data-open="projects">项目</button><button data-open="career">经历</button><button data-open="contact">联系</button></nav>
       </header>
-
-      <main>
-        <section id="gameViewport" class="game-viewport" aria-label="鍙帰绱㈢殑鍍忕礌宸ヤ綔瀹?>
-          <div id="room" class="room" tabindex="0" aria-describedby="controlHint">
-            <button class="window-spot" data-special="window" aria-label="鍘荤獥杈逛几鎳掕叞骞剁湅涔? title="鐐瑰嚮绐楁埛锛氬幓绐楄竟浼戞伅涓€涓?></button>
-            <button class="scene-object desk" data-object="projects" aria-label="鏌ョ湅椤圭洰鎽婁綅">
-              <span class="object-label">椤圭洰鎽婁綅</span>
-            </button>
-            <button class="scene-object shelf" data-object="skills" aria-label="鏌ョ湅鎶€鑳芥爲">
-              <span class="object-label">鎶€鑳芥爲</span>
-            </button>
-            <button class="scene-object door" data-object="career" aria-label="鏌ョ湅鑱屼笟鍏冲崱">
-              <span class="object-label">鑱屼笟鍏冲崱</span>
-            </button>
-            <button class="scene-object board" data-object="about" aria-label="鏌ョ湅鍏充簬鎴戝拰鏃呰鐩稿唽">
-              <span class="object-label">鍏充簬鎴?/span>
-            </button>
-            <button class="scene-object mailbox" data-object="contact" aria-label="鏌ョ湅鑱旂郴鎴?>
-              <span class="object-label">鑱旂郴鎴?/span>
-            </button>
-            <button class="scene-object practice-corner" data-object="practice" aria-label="鏌ョ湅缁冧範鏂瑰紡">
-              <span class="object-label">缁冧範鏂瑰紡</span>
-            </button>
-
-            <div id="player" class="player direction-down idle" aria-label="涓讳汉鍏コ瀛╃墰瓒?>
-              <img id="playerSprite" src="./assets/girl/down-0.webp" alt="" draggable="false" />
-            </div>
-
-            <div id="moveTarget" class="move-target" aria-hidden="true">鈼?/div>
-            <div id="controlHint" class="control-hint">
-              <span>鉁?/span> WASD / 鏂瑰悜閿?/ 榧犳爣绉诲姩 路 绌烘牸 / 宸﹂敭鏌ョ湅 <span>鉁?/span>
-            </div>
-
-            <section class="dialogue" aria-live="polite">
-              <div class="portrait" aria-hidden="true">
-                <img src="./assets/girl-portrait-384.webp" alt="" />
-              </div>
-              <p id="welcomeText">浣犲ソ锛屾垜鏄墰瓒婏紝涓€鍚嶆寔缁崌绾т腑鐨凙I璁粌甯堛€?/p>
-              <button id="skipToContent" class="dialogue-next" aria-label="蹇€熸祻瑙堝唴瀹?>鈻?/button>
-            </section>
-          </div>
-        </section>
-      </main>
+      <main><section id="gameViewport" class="game-viewport" aria-label="可探索的像素工作室"><div id="room" class="room" tabindex="0" aria-describedby="controlHint">
+        <button class="window-spot" data-special="window" aria-label="去窗边伸懒腰并看书" title="点击窗户：去窗边休息一下"></button>
+        <button class="scene-object desk" data-object="projects" aria-label="查看项目摊位"><span class="object-label">项目摊位</span></button>
+        <button class="scene-object shelf" data-object="skills" aria-label="查看技能树"><span class="object-label">技能树</span></button>
+        <button class="scene-object door" data-object="career" aria-label="查看职业关卡"><span class="object-label">职业关卡</span></button>
+        <button class="scene-object board" data-object="about" aria-label="查看关于我和旅行相册"><span class="object-label">关于我</span></button>
+        <button class="scene-object mailbox" data-object="contact" aria-label="查看联系我"><span class="object-label">联系我</span></button>
+        <button class="scene-object practice-corner" data-object="practice" aria-label="查看练习方式"><span class="object-label">练习方式</span></button>
+        <div id="player" class="player direction-down idle" aria-label="主人公女孩牛越"><img id="playerSprite" src="./assets/girl/down-0.webp" alt="" draggable="false" /></div>
+        <div id="moveTarget" class="move-target" aria-hidden="true">◆</div>
+        <div id="controlHint" class="control-hint"><span>✦</span> WASD / 方向键 / 鼠标移动 · 空格 / 左键查看 <span>✦</span></div>
+        <section class="dialogue" aria-live="polite"><div class="portrait" aria-hidden="true"><img src="./assets/girl-portrait-384.webp" alt="" /></div><p id="welcomeText">你好，我是牛越，一名持续升级中的AI训练师。</p><button id="skipToContent" class="dialogue-next" aria-label="快速浏览内容">▼</button></section>
+      </div></section></main>
     </div>
-
-    <div id="panelBackdrop" class="panel-backdrop" hidden>
-      <section id="contentPanel" class="content-panel" role="dialog" aria-modal="true" aria-labelledby="panelTitle">
-        <button id="closePanel" class="close-button" aria-label="鍏抽棴">脳</button>
-        <p id="panelEyebrow" class="eyebrow"></p>
-        <h2 id="panelTitle"></h2>
-        <div id="panelBody" class="panel-body"></div>
-      </section>
-    </div>
-
+    <div id="panelBackdrop" class="panel-backdrop" hidden><section id="contentPanel" class="content-panel" role="dialog" aria-modal="true" aria-labelledby="panelTitle"><button id="closePanel" class="close-button" aria-label="关闭">×</button><p id="panelEyebrow" class="eyebrow"></p><h2 id="panelTitle"></h2><div id="panelBody" class="panel-body"></div></section></div>
     <div id="toast" class="toast" role="status" aria-live="polite"></div>
     <script type="module" src="./app.js?v=20260812-2"></script>
   </body>
 </html>
-
