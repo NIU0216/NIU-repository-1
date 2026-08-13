@@ -176,7 +176,7 @@ body {
 }
 
 .scene-object::before {
-  content: "◆";
+  content: "鈼?;
   position: absolute;
   left: 50%;
   right: auto;
@@ -389,7 +389,7 @@ body {
 
 .dialogue::before,
 .dialogue::after {
-  content: "✦";
+  content: "鉁?;
   position: absolute;
   color: #f8d879;
   font-size: 17px;
@@ -442,8 +442,48 @@ body {
 }
 
 .content-panel {
+  width: min(1180px, 100%);
+  max-height: min(820px, 88vh);
+  padding: clamp(34px, 3vw, 48px);
   border-radius: 5px;
   background: #fff8e7;
+}
+
+.content-panel .close-button {
+  width: 48px;
+  height: 48px;
+  font-size: 28px;
+}
+
+.content-panel .eyebrow {
+  font-size: clamp(15px, 1.15vw, 18px);
+}
+
+.content-panel h2 {
+  margin-bottom: 28px;
+  font-size: clamp(34px, 3.2vw, 50px);
+}
+
+.content-panel .panel-body {
+  font-size: clamp(17px, 1.25vw, 20px);
+}
+
+.content-panel .card-grid {
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 18px;
+}
+
+.content-panel .content-card {
+  padding: 22px;
+}
+
+.content-panel .content-card h3 {
+  font-size: clamp(20px, 1.55vw, 25px);
+}
+
+.content-panel .tag {
+  padding: 4px 8px;
+  font-size: 14px;
 }
 
 @keyframes dialogueArrow {
@@ -466,4 +506,12 @@ body {
   .quick-nav button { min-width: 58px; font-size: 14px; }
   .dialogue { width: 57%; grid-template-columns: 72px 1fr 16px; min-height: 98px; padding: 9px 13px; }
   .portrait { width: 70px; height: 70px; }
+  .content-panel {
+    width: 100%;
+    padding: 26px 18px;
+  }
+  .content-panel h2 { font-size: 30px; }
+  .content-panel .panel-body { font-size: 16px; }
+  .content-panel .card-grid { grid-template-columns: 1fr; }
 }
+
